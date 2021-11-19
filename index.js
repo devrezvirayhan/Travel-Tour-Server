@@ -89,52 +89,6 @@ async function run() {
         res.send(result);
       });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  // GET SINGLE PRODUCT IN BOOKING 
  app.get("/singlLocationProduct/:id", async (req, res) => {
   const result = await OurAllTraveling.find({ _id: ObjectId(req.params.id) }).toArray();
